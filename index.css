@@ -1,0 +1,140 @@
+
+
+article {
+
+    background-color: aliceblue;
+    color: darkblue;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 20px;
+
+
+}
+
+h1  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#a1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+*   {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header  {
+    top: 0px;
+    left: 0px;
+    position: sticky;
+}
+
+
+nav {
+    height: 60px;
+    background-color:rgb(138, 185, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav li  {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* block형이 아니라 inline-block형으로 바꿈 */
+    width: 100px;
+    height:60px;
+  
+    /* background-color: aliceblue; */
+}
+
+nav li:hover {
+    background-color: white;
+    color: rgb(138, 185, 200);
+}
+
+nav a:hover    {
+    color: rgb(138, 185, 200);
+}
+
+#a2,#a4,#a6 {
+    background-color: rgb(181, 219, 243);
+}
+
+.c3 {
+    background-color: rgba(178, 198, 205, 0.583);
+}
+
+.c3>h1 {
+    color: rgb(63, 63, 65);
+}
+
+.c3 li {
+    color: black;
+}
+
+/* c3 > ul > li == c3 li : 공백으로 놓으면 같은 역할 */
+
+ul  {
+    margin: 20px;
+}
+
+
+
+article li{
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+nav a   {
+    text-decoration: none; /* 하이퍼링크의 밑줄을 뺀다 */
+    color: white;
+}
+
+article a   {
+    text-decoration:none;
+    
+}
+
+.c2 a:hover {
+    background-color:cornflowerblue;
+}
+
+.c3 a:hover {
+    background-color:cornflowerblue;
+}
+
+#a1 > div   {
+    border: 2px solid rgb(172, 199, 228);
+    border-style:dashed;
+    border-radius: 25%;
+    width: 400px;
+}
+
+#a1 img {
+    width: 100%;
+    border-radius: 25%;
+}
+
+
+main    {
+    display:flex;
+    flex-direction: column;
+    
+}
