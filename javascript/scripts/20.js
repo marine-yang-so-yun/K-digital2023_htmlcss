@@ -37,18 +37,18 @@ document.addEventListener('DOMContentLoaded', () =>{
                 cnt++;
 
                 if (arr[n-1] == 0)  {
-                    box.innerHTML = '<img src="../../images/hart.png">';
+                    box.innerHTML = '<img src = "./hart.png">';
                     if (cnt == 8)   {
                         flag = true;
                         document.querySelector('h2').innerHTML = "성공!";
 
                         let lastArr = [1, 2, 3, 4, 5, 6, 7, 8, 9].filter((item) => selarr.includes(item));
-                        boxes[lastArr[0] -1].innerHTML = '<img src = "../../images/hart.png">';
+                        boxes[lastArr[0] -1].innerHTML = '<img src = "./hart.png">';
 
                     }
                 }
                 else    {
-                    box.innerHTML = '<img src = "../../images/boom.png">';
+                    box.innerHTML = '<img src = "./boom.png">';
                     flag = true;
                     document.querySelector('h2').innerHTML = "실패!";
                 }
